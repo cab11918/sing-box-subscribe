@@ -538,6 +538,10 @@
         "outbound": "Microsoft"
       },
       {
+        "rule_set": "geosite-wechat",
+        "outbound": "direct"
+      },
+      {
         "rule_set": "geosite-category-games",
         "outbound": "Games"
       },
@@ -751,6 +755,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-wechat",
+        "type": "remote",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/wechat.json",
         "download_detour": "direct"
       },
       {
